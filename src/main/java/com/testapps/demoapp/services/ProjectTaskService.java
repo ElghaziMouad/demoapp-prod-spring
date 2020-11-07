@@ -1,28 +1,26 @@
 package com.testapps.demoapp.services;
 
 import com.testapps.demoapp.domain.Backlog;
-import com.testapps.demoapp.domain.Project;
 import com.testapps.demoapp.domain.ProjectTask;
 import com.testapps.demoapp.exceptions.ProjectNotFoundException;
-import com.testapps.demoapp.repositories.BacklogRepository;
-import com.testapps.demoapp.repositories.ProjectRepository;
+//import com.testapps.demoapp.repositories.BacklogRepository;
+//import com.testapps.demoapp.repositories.ProjectRepository;
 import com.testapps.demoapp.repositories.ProjectTaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 
 @Service
 public class ProjectTaskService {
 
-    @Autowired
-    private BacklogRepository backlogRepository;
+    // @Autowired
+    // private BacklogRepository backlogRepository;
 
     @Autowired
     private ProjectTaskRepository projectTaskRepository;
 
-    @Autowired
-    private ProjectRepository projectRepository;
+    // @Autowired
+    // private ProjectRepository projectRepository;
     
     @Autowired
     private ProjectService projectService;

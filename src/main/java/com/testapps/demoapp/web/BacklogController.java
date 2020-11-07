@@ -1,6 +1,5 @@
 package com.testapps.demoapp.web;
 
-import com.sun.org.apache.regexp.internal.RE;
 import com.testapps.demoapp.domain.ProjectTask;
 import com.testapps.demoapp.services.MapValidationErrorService;
 import com.testapps.demoapp.services.ProjectTaskService;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 import java.security.Principal;
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/backlog")
